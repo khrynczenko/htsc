@@ -1,0 +1,13 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:htsc"
+
+    - path: "app/Main.hs"
+      component: "htsc:exe:htsc"
+
+    - path: "test"
+      component: "htsc:test:htsc-test"
+
+    - path: "benchmark/Main.hs"
+      component: "htsc:bench:htsc-benchmark"
